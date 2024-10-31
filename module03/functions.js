@@ -70,10 +70,13 @@ console.log(factorial(5));
 function sum(num1, num2) {
   console.log(num1 + num2); // prints the sum of num1 & num2
 }
+
 // function with a return value
 function difference(num1, num2) {
   return num1 - num2; // returns the difference between num1 & num2 BUT it does not print it
 }
+
 sum(2, 10);
+
 let addTenToDifference = difference(10, 5) + 10;
 console.log(addTenToDifference);
